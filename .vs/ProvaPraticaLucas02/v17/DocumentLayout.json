@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "ProvaPraticaLucas02\\Views\\pgLoginUsuarioView.xaml",
               "ToolTip": "C:\\MAUI\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\Views\\pgLoginUsuarioView.xaml",
               "RelativeToolTip": "ProvaPraticaLucas02\\Views\\pgLoginUsuarioView.xaml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAIwCwAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwCwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-07T21:27:23.204Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "ProvaPraticaLucas02\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T21:27:21.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T21:27:21.469Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "ProvaPraticaLucas02\\AppShell.xaml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T02:33:11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T02:33:11Z"
             }
           ]
         }
