@@ -27,5 +27,8 @@
     <None Update="Resources\Styles\Styles.xaml">
       <SubType>Designer</SubType>
     </None>
+    <None Update="Views\pgPrincipalView.xaml">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
 </Project>

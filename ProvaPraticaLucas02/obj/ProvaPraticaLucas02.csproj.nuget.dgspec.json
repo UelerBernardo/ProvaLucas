@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ueler\\Desktop\\Programação Mobile\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj": {}
+    "C:\\progmobile2\\prova\\ProvaLucas\\ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ueler\\Desktop\\Programação Mobile\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj": {
+    "C:\\progmobile2\\prova\\ProvaLucas\\ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ueler\\Desktop\\Programação Mobile\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj",
+        "projectUniqueName": "C:\\progmobile2\\prova\\ProvaLucas\\ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj",
         "projectName": "ProvaPraticaLucas02",
-        "projectPath": "C:\\Users\\Ueler\\Desktop\\Programação Mobile\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj",
-        "packagesPath": "C:\\Users\\Ueler\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ueler\\Desktop\\Programação Mobile\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\obj\\",
+        "projectPath": "C:\\progmobile2\\prova\\ProvaLucas\\ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj",
+        "packagesPath": "C:\\Users\\luiz.dsilva\\.nuget\\packages\\",
+        "outputPath": "C:\\progmobile2\\prova\\ProvaLucas\\ProvaPraticaLucas02\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ueler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luiz.dsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
