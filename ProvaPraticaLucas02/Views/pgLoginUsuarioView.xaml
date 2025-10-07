@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProvaPraticaLucas02.Views.pgLoginUsuarioView"
+             xmlns:vm="clr-namespace:ProvaPraticaLucas02.ViewModels"
+             x:DataType="vm:UsuarioViewModel"
+             Title="pgLoginUsuarioView"
+             WidthRequest="400"
+             HeightRequest="900">
+    <ScrollView>
+        <StackLayout Padding="20" VerticalOptions="Center">
+            <Frame CornerRadius="10" BackgroundColor="White">
+                <StackLayout>
+                    <Label Text="Login"
+                           FontSize="Title"
+                           TextColor="Black"
+                           HorizontalTextAlignment="Center"/>
+
+                    <StackLayout>
+                        <StackLayout>
+                        <Label Text="Email:"
+                               TextColor="Black"
+                               Margin="0,0,20,0"/>
+
+                        <Entry TextColor="Black"
+                               Placeholder="Digite seu email"
+                               Text="{Binding EmailDigitado}"/>
+
+                        <Label Text="Senha:"
+                               TextColor="Black"/>
+
+                        <Entry TextColor="Black"
+                               Placeholder="Digite sua senha"
+                               IsPassword="True"
+                               Text="{Binding SenhaDigitada}"/>
+                        </StackLayout>
+                        <HorizontalStackLayout>
+                        <Button Text="Entrar"
+                                Command="{Binding CommandValidacaoLogin}"
+                                Margin="20"
+                                HorizontalOptions="Center"
+                                WidthRequest="110"/>
+
+                        <Button Text="Cadastrar-se"
+                                Command="{Binding CommandCadastrarUsuario}"
+                                Margin="20"
+                                HorizontalOptions="Center"
+                                WidthRequest="110"/>
+                        </HorizontalStackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

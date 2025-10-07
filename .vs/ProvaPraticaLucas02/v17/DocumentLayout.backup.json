@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MAUI\\ProvaPraticaLucas02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9883E23-44B7-44F2-B8CD-FC4A42DBDA9E}|ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj|c:\\maui\\provapraticalucas02\\provapraticalucas02\\views\\pgloginusuarioview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9883E23-44B7-44F2-B8CD-FC4A42DBDA9E}|ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj|solutionrelative:provapraticalucas02\\views\\pgloginusuarioview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9883E23-44B7-44F2-B8CD-FC4A42DBDA9E}|ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj|c:\\maui\\provapraticalucas02\\provapraticalucas02\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9883E23-44B7-44F2-B8CD-FC4A42DBDA9E}|ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj|solutionrelative:provapraticalucas02\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9883E23-44B7-44F2-B8CD-FC4A42DBDA9E}|ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj|c:\\maui\\provapraticalucas02\\provapraticalucas02\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9883E23-44B7-44F2-B8CD-FC4A42DBDA9E}|ProvaPraticaLucas02\\ProvaPraticaLucas02.csproj|solutionrelative:provapraticalucas02\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 220,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pgLoginUsuarioView.xaml",
+              "DocumentMoniker": "C:\\MAUI\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\Views\\pgLoginUsuarioView.xaml",
+              "RelativeDocumentMoniker": "ProvaPraticaLucas02\\Views\\pgLoginUsuarioView.xaml",
+              "ToolTip": "C:\\MAUI\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\Views\\pgLoginUsuarioView.xaml",
+              "RelativeToolTip": "ProvaPraticaLucas02\\Views\\pgLoginUsuarioView.xaml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwCwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-07T21:27:23.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\MAUI\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\App.xaml",
+              "RelativeDocumentMoniker": "ProvaPraticaLucas02\\App.xaml",
+              "ToolTip": "C:\\MAUI\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\App.xaml",
+              "RelativeToolTip": "ProvaPraticaLucas02\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-07T21:27:21.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\MAUI\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\AppShell.xaml",
+              "RelativeDocumentMoniker": "ProvaPraticaLucas02\\AppShell.xaml",
+              "ToolTip": "C:\\MAUI\\ProvaPraticaLucas02\\ProvaPraticaLucas02\\AppShell.xaml",
+              "RelativeToolTip": "ProvaPraticaLucas02\\AppShell.xaml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-07T02:33:11Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+C:\MAUI\ProvaPraticaLucas02\ProvaPraticaLucas02\ProvaPraticaLucas02.csproj;x64
