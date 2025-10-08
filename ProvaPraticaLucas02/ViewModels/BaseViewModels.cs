@@ -13,5 +13,9 @@ namespace ProvaPraticaLucas02.ViewModels
         {
             VoltarCommand = new Command(Voltar);
         }
+        public async void AbrirView(ContentPage view)
+        {
+            await Application.Current.MainPage.Navigation.PushAsync(view);
+        }
     }
 }
