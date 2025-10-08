@@ -30,265 +30,265 @@
     <AppXManifest Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-10-07T22:11:02.887</Modified>
+      <Modified>2025-10-08T18:29:46.740</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-10-07T22:11:02.690</Modified>
+      <Modified>2025-10-08T16:53:20.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProvaPraticaLucas02.runtimeconfig.json">
       <PackagePath>ProvaPraticaLucas02.runtimeconfig.json</PackagePath>
-      <Modified>2025-10-07T22:11:01.952</Modified>
+      <Modified>2025-10-08T16:53:19.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProvaPraticaLucas02.dll">
       <PackagePath>ProvaPraticaLucas02.dll</PackagePath>
-      <Modified>2025-10-07T22:11:00.684</Modified>
+      <Modified>2025-10-08T18:29:46.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ProvaPraticaLucas02.exe</PackagePath>
-      <Modified>2025-10-07T22:11:00.710</Modified>
+      <Modified>2025-10-08T18:29:46.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-10-07T22:00:42.320</Modified>
+      <Modified>2025-10-08T12:09:44.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-10-07T22:00:49.742</Modified>
+      <Modified>2025-10-08T12:09:57.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-10-07T22:00:49.744</Modified>
+      <Modified>2025-10-08T12:09:57.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-10-07T22:00:49.745</Modified>
+      <Modified>2025-10-08T12:09:57.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-10-07T22:00:49.746</Modified>
+      <Modified>2025-10-08T12:09:57.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-10-07T22:00:49.747</Modified>
+      <Modified>2025-10-08T12:09:57.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-10-07T22:00:49.669</Modified>
+      <Modified>2025-10-08T12:09:57.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2025-10-07T22:00:49.673</Modified>
+      <Modified>2025-10-08T12:09:57.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-10-07T22:04:52.111</Modified>
+      <Modified>2025-10-08T12:09:57.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.099</Modified>
+      <Modified>2025-10-08T12:09:57.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.098</Modified>
+      <Modified>2025-10-08T12:09:57.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.098</Modified>
+      <Modified>2025-10-08T12:09:57.155</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.098</Modified>
+      <Modified>2025-10-08T12:09:57.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.097</Modified>
+      <Modified>2025-10-08T12:09:57.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.106</Modified>
+      <Modified>2025-10-08T12:09:57.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.106</Modified>
+      <Modified>2025-10-08T12:09:57.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.105</Modified>
+      <Modified>2025-10-08T12:09:57.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.106</Modified>
+      <Modified>2025-10-08T12:09:57.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.106</Modified>
+      <Modified>2025-10-08T12:09:57.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.108</Modified>
+      <Modified>2025-10-08T12:09:57.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.108</Modified>
+      <Modified>2025-10-08T12:09:57.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.107</Modified>
+      <Modified>2025-10-08T12:09:57.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.107</Modified>
+      <Modified>2025-10-08T12:09:57.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.107</Modified>
+      <Modified>2025-10-08T12:09:57.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.111</Modified>
+      <Modified>2025-10-08T12:09:57.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.111</Modified>
+      <Modified>2025-10-08T12:09:57.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.110</Modified>
+      <Modified>2025-10-08T12:09:57.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.110</Modified>
+      <Modified>2025-10-08T12:09:57.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.110</Modified>
+      <Modified>2025-10-08T12:09:57.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.110</Modified>
+      <Modified>2025-10-08T12:09:57.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.109</Modified>
+      <Modified>2025-10-08T12:09:57.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.108</Modified>
+      <Modified>2025-10-08T12:09:57.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.109</Modified>
+      <Modified>2025-10-08T12:09:57.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.109</Modified>
+      <Modified>2025-10-08T12:09:57.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.102</Modified>
+      <Modified>2025-10-08T12:09:57.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.101</Modified>
+      <Modified>2025-10-08T12:09:57.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.101</Modified>
+      <Modified>2025-10-08T12:09:57.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.101</Modified>
+      <Modified>2025-10-08T12:09:57.226</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.100</Modified>
+      <Modified>2025-10-08T12:09:57.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.103</Modified>
+      <Modified>2025-10-08T12:09:57.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.103</Modified>
+      <Modified>2025-10-08T12:09:57.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.103</Modified>
+      <Modified>2025-10-08T12:09:57.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.102</Modified>
+      <Modified>2025-10-08T12:09:57.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.102</Modified>
+      <Modified>2025-10-08T12:09:57.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.105</Modified>
+      <Modified>2025-10-08T12:09:57.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.105</Modified>
+      <Modified>2025-10-08T12:09:57.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.104</Modified>
+      <Modified>2025-10-08T12:09:57.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.104</Modified>
+      <Modified>2025-10-08T12:09:57.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.104</Modified>
+      <Modified>2025-10-08T12:09:57.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.100</Modified>
+      <Modified>2025-10-08T12:09:57.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.100</Modified>
+      <Modified>2025-10-08T12:09:57.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.099</Modified>
+      <Modified>2025-10-08T12:09:57.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.099</Modified>
+      <Modified>2025-10-08T12:09:57.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.099</Modified>
+      <Modified>2025-10-08T12:09:57.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.097</Modified>
+      <Modified>2025-10-08T12:09:57.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.097</Modified>
+      <Modified>2025-10-08T12:09:57.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.096</Modified>
+      <Modified>2025-10-08T12:09:57.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.096</Modified>
+      <Modified>2025-10-08T12:09:57.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-10-07T22:04:52.095</Modified>
+      <Modified>2025-10-08T12:09:57.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProvaPraticaLucas02.deps.json">
       <PackagePath>ProvaPraticaLucas02.deps.json</PackagePath>
-      <Modified>2025-10-07T22:11:01.801</Modified>
+      <Modified>2025-10-08T16:53:19.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luiz.dsilva\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

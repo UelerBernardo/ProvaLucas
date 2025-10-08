@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProvaPraticaLucas02.Views.pgCadastroView"
+             Title="Tela de Cadastro">
+    <ScrollView>
+
+        <StackLayout>
+
+            <!-- ### NOME ### -->
+            <Label Text="Nome"
+                   FontSize="24"
+                   FontAttributes="Bold"/>
+            <Entry Placeholder="Luiz Felipe da Silva"
+                   Text="{Binding Nome}"/>
+
+            <!-- ### EMAIL ### -->
+            <Label Text="E-mail"
+                   FontSize="24"
+                   FontAttributes="Bold"/>
+            <Entry Placeholder="luiz@gmail.com"
+                   Text="{Binding Email}"/>
+
+            <!-- ### CPF ### -->
+            <Label Text="CPF"
+                   FontSize="24"
+                   FontAttributes="Bold"/>
+            <Entry Placeholder="xxx.xxx.xxx-xx"
+                   Text="{Binding Cpf}"/>
+
+            <!-- ### DATA NASCIMENTO ### -->
+            <Label Text="Data de Nascimento"
+                   FontSize="24"
+                   FontAttributes="Bold"/>
+            <Entry Placeholder="12/05/2005"
+                   Text="{Binding DataNascimento}"/>
+
+            <!-- ### SENHA ### -->
+            <Label Text="Senha"
+                   FontSize="24"
+                   FontAttributes="Bold"/>
+            <Entry Placeholder="******"
+                   Text="{Binding Senha}"
+                   IsPassword="True"/>
+
+            <Button Text="Cadastrar"
+                    Command="{Binding CommandCadastrarUsuario}"/> 
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

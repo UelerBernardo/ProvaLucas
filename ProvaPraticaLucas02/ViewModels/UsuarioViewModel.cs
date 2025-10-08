@@ -1,14 +1,14 @@
-﻿using ProvaPraticaLucas02.Services;
-using ProvaPraticaLucas02.Models;
+﻿using ProvaPraticaLucas02.Models;
+using ProvaPraticaLucas02.Services;
 using System.Windows.Input;
-using System.Runtime.ConstrainedExecution;
-
+using ProvaPraticaLucas02.Views;
 
 namespace ProvaPraticaLucas02.ViewModels
 {
-    public partial class UsuarioViewModel : BaseNotifyViewModel
+    public partial class UsuarioViewModel : BaseViewModels
     {
       
+        UsuarioServices usuarioServices = new UsuarioServices();
         private string _emailDigitado = string.Empty;
         public string EmailDigitado
         {
@@ -19,8 +19,7 @@ namespace ProvaPraticaLucas02.ViewModels
                 OnPropertyChanged();
             }
         }
-
-        // <-- CORREÇÃO: Convertido para o padrão manual.
+        
         private string _senhaDigitada = string.Empty;
         public string SenhaDigitada
         {
@@ -36,7 +35,7 @@ namespace ProvaPraticaLucas02.ViewModels
 
         private string _cpf = string.Empty;
         private string _nome = string.Empty;
-        private DateOnly _datanascimento; // DateOnly não é anulável por padrão, ok
+        private string _datanascimento = string.Empty;
         private string _email = string.Empty;
         private string _senha = string.Empty;
 
@@ -44,40 +43,75 @@ namespace ProvaPraticaLucas02.ViewModels
         public string Nome { get => _nome; set { _nome = value; OnPropertyChanged(); } }
         public string Email { get => _email; set { _email = value; OnPropertyChanged(); } }
         public string Senha { get => _senha; set { _senha = value; OnPropertyChanged(); } }
-        public DateOnly DataNascimento { get => _datanascimento; set { _datanascimento = value; OnPropertyChanged(); } }
+        public string DataNascimento { get => _datanascimento; set { _datanascimento = value; OnPropertyChanged(); } }
 
         // --- COMANDOS ---
         public ICommand CommandCadastrarUsuario { get; set; }
         public ICommand CommandConsultarUsuario { get; set; }
-        public ICommand CommandValidacaoLogin { get; set; } // <-- O nome aqui estava diferente do usado no construtor
+        public ICommand CommandValidacaoLogin { get; set; }
+        public ICommand CommandVisualizarUsuario { get; set; }
+        public ICommand CommandAtualizarUsuario { get; set; }
+        public ICommand CommandAbrirCadastro { get; set; }
 
         // --- MÉTODOS DOS COMANDOS ---
+
+        void AbrirCadastro()
+        {
+            AbrirView(new pgCadastroView());
+        }
         void CadastrarUsuario()
         {
             Usuario user = new Usuario();
             user.Nome = Nome;
-            user.DataNascimento = DataNascimento;
             user.Email = Email;
-            user.Senha = Senha;
             user.CPF = CPF;
+            user.DataNascimento = DataNascimento;           
+            user.Senha = Senha;
 
-            _usuarioService.Adicionar(user);
 
-            // Application.Current.MainPage.Navigation.PushAsync(new SuaPaginaDeLogin()); // <-- Corrigido para um exemplo válido
+            usuarioServices.Adicionar(user);
+
+            Voltar();
+            Application.Current.MainPage.DisplayAlert("Informação",
+                "Usuário Cadastrado com sucesso", "Ok");
+        }
+
+        void AtualizarUsuario()
+        {
+            AbrirView(new pgCadastroView());
+
+            Usuario? user = usuarioServices.Consultar();
+            if (user != null)
+            {
+                Nome = user.Nome;
+                Email = user.Email;
+                CPF = user.CPF;
+                DataNascimento = user.DataNascimento;
+                Senha = user.Senha;
+            }
         }
 
         void Consultar()
         {
-            Usuario? user = _usuarioService.Consultar(); // A variável user pode ser nula
-
-            // ADICIONE ESTA VERIFICAÇÃO
+            Usuario? user = usuarioServices.Consultar();
+         
             if (user != null)
             {
                 Nome = user.Nome;
-                CPF = user.CPF;
                 Email = user.Email;
-                Senha = user.Senha;
+                CPF = user.CPF;
                 DataNascimento = user.DataNascimento;
+                Senha = user.Senha;              
+            }
+        }
+
+        void Visualizar()
+        {
+            Usuario? user = usuarioServices.Consultar();
+
+            if (user != null)
+            {
+                Nome = user.Nome;
             }
         }
 
@@ -88,8 +122,7 @@ namespace ProvaPraticaLucas02.ViewModels
                 Application.Current.MainPage.DisplayAlert("Erro", "Por favor, preencha o email e a senha.", "OK");
                 return;
             }
-
-            // <-- CORREÇÃO: Agora _usuarioService existe e pode ser usado.
+           
             Usuario usuarioCadastrado = _usuarioService.ConsultarPorEmail(EmailDigitado);
 
             if (usuarioCadastrado == null)
@@ -100,8 +133,8 @@ namespace ProvaPraticaLucas02.ViewModels
 
             if (usuarioCadastrado.Senha == SenhaDigitada)
             {
-                Application.Current.MainPage.DisplayAlert("Sucesso", $"Bem-vindo, {usuarioCadastrado.Nome}!", "OK");
-                // Navegar para a próxima tela
+                Application.Current.MainPage.DisplayAlert("Sucesso", $"Bem Vindo! {usuarioCadastrado.Nome}", "OK");
+                AbrirView(new pgPrincipalView());
             }
             else
             {
@@ -109,13 +142,14 @@ namespace ProvaPraticaLucas02.ViewModels
             }
         }
 
-        // --- CONSTRUTOR ---
         public UsuarioViewModel()
         {
             CommandCadastrarUsuario = new Command(CadastrarUsuario);
-            CommandConsultarUsuario = new Command(Consultar);
-            // <-- CORREÇÃO: Adicionada a inicialização do comando de login.
+            CommandConsultarUsuario = new Command(Consultar);            
             CommandValidacaoLogin = new Command(ValidarLogin);
+            CommandVisualizarUsuario = new Command(Visualizar);
+            CommandAtualizarUsuario = new Command(AtualizarUsuario);
+            CommandAbrirCadastro = new Command(AbrirCadastro);
         }
     }
 }

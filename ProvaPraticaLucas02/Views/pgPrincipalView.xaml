@@ -8,24 +8,24 @@
         <StackLayout>
 
             <StackLayout Padding="10"/>
-            <Label Text="Visualizar"
+            <Label Text="{Binding Nome, StringFormat='Bem Vindo! {0}'}"
                    FontSize="30"
                    HorizontalTextAlignment="Center"/>
+                      
+            <StackLayout Padding="10"/>
+            <Label Text="Email:"/>
+            <Label Text="{Binding Email}"/>
 
             <StackLayout Padding="10"/>
-            <Label Text="Marca:"/>
-            <Label Text="{Binding Marca}"/>
+            <Label Text="CPF:"/>
+            <Label Text="{Binding Cpf}"/>
 
             <StackLayout Padding="10"/>
-            <Label Text="Modelo:"/>
-            <Label Text="{Binding Modelo}"/>
-
-            <StackLayout Padding="10"/>
-            <Label Text="Cor:"/>
-            <Label Text="{Binding Cor}"/>
+            <Label Text="Data de Nascimento"/>
+            <Label Text="{Binding DataNascimento}"/>
 
             <Button Text="Atualizar"
-                    Command="{Binding CommandAtualizar}"/>
+                    Command="{Binding CommandAtualizarUsuario}"/>
 
             <Button Text="Visualizar"
                     Command="{Binding CommandConsultarUsuario}"/>
