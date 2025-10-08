@@ -42,7 +42,7 @@
                                 WidthRequest="110"/>
 
                         <Button Text="Cadastrar-se"
-                                Command="{Binding CommandCadastrarUsuario}"
+                                Command="{Binding CommandAbrirCadastro}"
                                 Margin="20"
                                 HorizontalOptions="Center"
                                 WidthRequest="110"/>

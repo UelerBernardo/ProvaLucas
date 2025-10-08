@@ -2,7 +2,7 @@
 
 namespace ProvaPraticaLucas02.ViewModels
 {
-    internal partial class BaseViewModels : BaseNotifyViewModel
+    public partial class BaseViewModels : BaseNotifyViewModel
     {
         public ICommand VoltarCommand { get; set; }
         public async void Voltar()
