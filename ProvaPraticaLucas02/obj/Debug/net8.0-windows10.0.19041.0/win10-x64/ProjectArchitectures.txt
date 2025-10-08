@@ -1,1 +1,1 @@
-C:\Users\Ueler\Desktop\Programação Mobile\ProvaPraticaLucas02\ProvaPraticaLucas02\ProvaPraticaLucas02.csproj;x64
+C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\ProvaPraticaLucas02.csproj;x64

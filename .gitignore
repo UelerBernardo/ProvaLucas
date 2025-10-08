@@ -1,5 +1,12 @@
-# Visual Studio
+# Pastas e arquivos do Visual Studio e IDEs
 .vs/
+*.vsidx
 *.suo
-*.user
-*.bak
+
+# Arquivos de binários e objetos
+[Bb]in/
+[Oo]bj/
+
+# Arquivos de dependências
+[Mm]odule/
+packages/

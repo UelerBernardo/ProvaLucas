@@ -1,0 +1,113 @@
+O **Git** é uma ótima ferramenta para fazer um trabalho de programação em equipe, como uma prova. O fluxo de trabalho que você descreveu está correto e é o padrão para a maioria dos projetos de desenvolvimento.
+
+Para te ajudar, preparei um passo a passo completo, desde a criação do repositório até a entrega do projeto.
+
+### 1\. Preparação do Repositório (Feito por você ou seu parceiro)
+
+Primeiro, um de vocês precisa criar o repositório central.
+
+  * Vá até um serviço como **GitHub**, **GitLab** ou **Bitbucket** e crie um novo repositório privado.
+  * Inicialize o projeto localmente no seu computador.
+  * Vincule o projeto ao repositório remoto:
+    ```bash
+    git init
+    git add .
+    git commit -m "Primeiro commit do projeto"
+    git branch -M main
+    git remote add origin https://github.com/seu-usuario/seu-repositorio.git
+    git push -u origin main
+    ```
+  * Compartilhe o link do repositório com seu parceiro.
+
+-----
+
+### 2\. Fluxo de Trabalho do seu Parceiro
+
+Seu parceiro não vai começar do zero. Ele vai "clonar" (baixar) o projeto que você já iniciou.
+
+  * Ele vai abrir o terminal e usar o comando `git clone` para baixar o projeto.
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
+  * Agora, ambos têm a mesma cópia do projeto em seus computadores.
+
+-----
+
+### 3\. Realizando as Alterações (Simultaneamente)
+
+Aqui está a parte mais importante. Para evitar conflitos e organizar o trabalho, o ideal é que cada um crie uma "branch" (ramo) para trabalhar em sua parte do código.
+
+  * **Crie uma branch para a sua tarefa:**
+
+    ```bash
+    git checkout -b minha-tarefa
+    ```
+
+    (Seu parceiro faria o mesmo, criando a branch `tarefa-do-parceiro`)
+
+  * **Desenvolva sua parte do código** e salve os arquivos.
+
+  * **Commit suas alterações:**
+
+      * Verifique quais arquivos foram alterados:
+        ```bash
+        git status
+        ```
+      * Adicione os arquivos que você quer salvar:               --------------------- AQUI
+        ```bash
+        git add .
+        ```
+      * Salve as alterações com uma mensagem clara:
+        ```bash
+        git commit -m "Adiciona tela de login e validação"
+        ```
+
+  * **Envie sua branch para o repositório remoto:**
+
+    ```bash
+    git push origin minha-tarefa
+    ```
+
+-----
+
+### 4\. Juntando as Alterações (`Pull Request` e `Merge`)
+
+Depois que você e seu parceiro terminarem suas tarefas, é hora de juntar o código.
+
+  * **Faça um `pull request` (PR):**
+
+      * Vá para o site do **GitHub/GitLab** e você verá uma notificação para criar um **"Pull Request"** com base na sua nova branch.
+      * Abra o PR, descreva o que você fez e solicite uma revisão. **Essa etapa é crucial para a prova**, pois permite que o professor (ou avaliador) veja o que cada um fez.
+      * Seu parceiro faria o mesmo com a branch dele.
+
+  * **Faça o `merge`:**
+
+      * Depois que o PR for aprovado (o professor pode até comentar sobre seu código aqui), clique em **"Merge pull request"**.
+      * Isso vai unir o código da sua branch com a branch principal (`main`).
+
+  * **Atualize seu código local:**
+
+      * Depois do *merge*, você e seu parceiro precisam atualizar suas cópias locais.
+      * Volte para a branch `main`:
+        ```bash
+        git checkout main
+        ```
+      * Baixe as alterações mais recentes do repositório:
+        ```bash
+        git pull origin main
+        ```
+      * Agora, suas cópias locais estão sincronizadas e prontas para a próxima etapa.
+
+### Resumo dos comandos:
+
+| Ação | Comando |
+| :--- | :--- |
+| Criar uma cópia local do projeto | `git clone [URL]` |
+| Criar uma nova branch | `git checkout -b [nome-da-branch]` |
+| Mudar para uma branch existente | `git checkout [nome-da-branch]` |
+| Adicionar arquivos alterados | `git add .` |
+| Salvar as alterações | `git commit -m "[mensagem]"` |
+| Enviar suas alterações para o remoto | `git push origin [nome-da-branch]` |
+| Baixar alterações do remoto | `git pull origin [nome-da-branch]` |
+
+Esse fluxo de trabalho garante que vocês trabalhem de forma organizada, evitem sobrepor o trabalho um do outro e tenham um histórico claro de todas as alterações. Boa sorte com a prova\!
