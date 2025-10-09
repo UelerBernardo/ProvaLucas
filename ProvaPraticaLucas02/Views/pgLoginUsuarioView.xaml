@@ -4,12 +4,10 @@
              x:Class="ProvaPraticaLucas02.Views.pgLoginUsuarioView"
              xmlns:vm="clr-namespace:ProvaPraticaLucas02.ViewModels"
              x:DataType="vm:UsuarioViewModel"
-             Title="pgLoginUsuarioView"
-             WidthRequest="400"
-             HeightRequest="900">
+             Title="Tela de Login" WidthRequest="400">
     <ScrollView>
-        <StackLayout Padding="20" VerticalOptions="Center">
-            <Frame CornerRadius="10" BackgroundColor="White">
+        <StackLayout VerticalOptions="Center">
+            <Frame CornerRadius="10" BackgroundColor="White" WidthRequest="350">
                 <StackLayout>
                     <Label Text="Login"
                            FontSize="Title"

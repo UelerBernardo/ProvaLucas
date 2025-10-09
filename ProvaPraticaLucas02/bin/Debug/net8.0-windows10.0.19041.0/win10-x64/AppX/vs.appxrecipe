@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-10-08T18:29:46.740</Modified>
+      <Modified>2025-10-09T14:18:53.650</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProvaPraticaLucas02.dll">
       <PackagePath>ProvaPraticaLucas02.dll</PackagePath>
-      <Modified>2025-10-08T18:29:46.099</Modified>
+      <Modified>2025-10-09T14:18:53.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ProvaPraticaLucas02.exe</PackagePath>
-      <Modified>2025-10-08T18:29:46.139</Modified>
+      <Modified>2025-10-09T14:18:53.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\progmobile2\prova\ProvaLucas\ProvaPraticaLucas02\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
