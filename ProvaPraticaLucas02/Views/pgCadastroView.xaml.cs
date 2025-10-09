@@ -10,5 +10,11 @@ public partial class pgCadastroView : ContentPage
 
 		// Vincular o front com o back
 		BindingContext = new UsuarioViewModel();
-	}
+
+        var userViewModel = new UsuarioViewModel();
+
+        BindingContext = userViewModel;
+
+        userViewModel.CommandConsultarUsuario.Execute(null);
+    }
 }

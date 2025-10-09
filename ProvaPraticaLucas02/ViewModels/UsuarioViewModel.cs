@@ -39,7 +39,7 @@ namespace ProvaPraticaLucas02.ViewModels
         private string _email = string.Empty;
         private string _senha = string.Empty;
 
-        public string CPF { get => _cpf; set { _cpf = value; OnPropertyChanged(); } }
+        public string Cpf { get => _cpf; set { _cpf = value; OnPropertyChanged(); } }
         public string Nome { get => _nome; set { _nome = value; OnPropertyChanged(); } }
         public string Email { get => _email; set { _email = value; OnPropertyChanged(); } }
         public string Senha { get => _senha; set { _senha = value; OnPropertyChanged(); } }
@@ -64,7 +64,7 @@ namespace ProvaPraticaLucas02.ViewModels
             Usuario user = new Usuario();
             user.Nome = Nome;
             user.Email = Email;
-            user.CPF = CPF;
+            user.Cpf = Cpf;
             user.DataNascimento = DataNascimento;           
             user.Senha = Senha;
 
@@ -80,15 +80,15 @@ namespace ProvaPraticaLucas02.ViewModels
         {
             AbrirView(new pgCadastroView());
 
-            Usuario? user = usuarioServices.Consultar();
-            if (user != null)
-            {
-                Nome = user.Nome;
-                Email = user.Email;
-                CPF = user.CPF;
-                DataNascimento = user.DataNascimento;
-                Senha = user.Senha;
-            }
+            //Usuario? user = usuarioServices.Consultar();
+            //if (user != null)
+            //{
+            //    Nome = user.Nome;
+            //    Email = user.Email;
+            //    Cpf = user.Cpf;
+            //    DataNascimento = user.DataNascimento;
+            //    Senha = user.Senha;
+            //}
         }
 
         void Consultar()
@@ -99,7 +99,7 @@ namespace ProvaPraticaLucas02.ViewModels
             {
                 Nome = user.Nome;
                 Email = user.Email;
-                CPF = user.CPF;
+                Cpf = user.Cpf;
                 DataNascimento = user.DataNascimento;
                 Senha = user.Senha;              
             }

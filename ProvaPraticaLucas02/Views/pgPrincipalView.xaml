@@ -2,12 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProvaPraticaLucas02.Views.pgPrincipalView"
-             Title="Tela Principal">
+             Title="Tela Principal" WidthRequest="400">
     <ScrollView>
-
-        <StackLayout>
-
-            <StackLayout Padding="10"/>
+        <StackLayout Margin="0,20,0,0" WidthRequest="350">
             <Label Text="{Binding Nome, StringFormat='Bem Vindo! {0}'}"
                    FontSize="30"
                    HorizontalTextAlignment="Center"/>
@@ -25,12 +22,15 @@
             <Label Text="{Binding DataNascimento}"/>
 
             <Button Text="Atualizar"
+                    Margin="0,20,0,0"
                     Command="{Binding CommandAtualizarUsuario}"/>
 
             <Button Text="Visualizar"
+                    Margin="0,20,0,0"                  
                     Command="{Binding CommandConsultarUsuario}"/>
 
             <Button Text="Voltar"
+                    Margin="0,20,0,0"
                     Command="{Binding VoltarCommand}"/>
 
         </StackLayout>
